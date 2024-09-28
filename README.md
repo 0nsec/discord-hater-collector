@@ -3,7 +3,7 @@
   <b>🔥 Hater Collector 🔥</b>
  </p> 
  <p align="center">
- <b>UI based Discord Rat Builder to control victims pc on discord.</b>
+ <b>GUI based Discord Rat Builder to control victims pc on discord.</b>
  </p>
 
 

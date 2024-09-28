@@ -1,0 +1,11 @@
+discord.py
+requests
+opencv-python
+numpy
+Pillow
+sounddevice
+gtts
+pycryptodome
+pywin32
+pyinstaller
+customtkinter 

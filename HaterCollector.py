@@ -991,6 +991,6 @@ async def helpmsg(ctx):
     await ctx.send(embed=embed3)
     
 ######################################
-token = "MTI4NjUyNTE5OTQ0NTAwMDI4NA.GfUvzG.6OvFCABPhAeDttfnF6YFewM6qj7anEvK2gbGRU"
+token = "Your Discord Bot Token"
 
 bot.run(token)

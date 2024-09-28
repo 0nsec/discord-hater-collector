@@ -98,7 +98,7 @@ ctk.set_default_color_theme("blue")  # CustomTkinter themes: "blue", "green", "d
 
 # Create the main application window
 app = ctk.CTk()
-app.title("HaterCollecter EXE Builder")
+app.title("HaterCollecter RAT Builder By 0nsec")
 app.geometry("500x400")
 app.resizable(False, False)
 
@@ -107,7 +107,7 @@ frame = ctk.CTkFrame(master=app, corner_radius=15)
 frame.pack(pady=20, padx=20, fill="both", expand=True)
 
 # Title label for the builder
-title_label = ctk.CTkLabel(master=frame, text="HaterCollecter EXE Builder", font=("Arial", 20, "bold"))
+title_label = ctk.CTkLabel(master=frame, text="HaterCollecter Rat Builder", font=("Arial", 20, "bold"))
 title_label.pack(pady=10)
 
 # Label and entry for Discord token
@@ -117,8 +117,8 @@ token_label.pack(pady=10)
 token_entry = ctk.CTkEntry(master=frame, width=300, height=30)
 token_entry.pack(pady=10)
 
-# Build button to trigger the build process
-build_button = ctk.CTkButton(master=frame, text="Build EXE", command=start_build, width=200, height=40, 
+# Build button to trigger the build process & You can also change the color of the button
+build_button = ctk.CTkButton(master=frame, text="Build", command=start_build, width=200, height=40, 
                              font=("Arial", 12, "bold"), fg_color="green", hover_color="darkgreen")
 build_button.pack(pady=10)
 

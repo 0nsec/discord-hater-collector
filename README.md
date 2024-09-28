@@ -39,8 +39,8 @@ pip3 install -r requirements.txt
 
 
 ## **Usage**
-<li>
-Use !helpme command in the opened channel</li>
+
+Use ```!helpme``` command to view the list
  
 ## **Command List**
 ```nasm

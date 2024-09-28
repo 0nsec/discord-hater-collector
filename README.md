@@ -63,10 +63,10 @@ Make it more persistant. +
 <li>Discord : 0giv
 
 ## **Example Photos:**
-<img src="photos/Screenshot (43).png" width="300" height="200"><br>
-<img src="photos/photo_5776046485983575575_y.jpg" width="300" height="200"><br>
-<img src="photos/photo_5776046485983575576_y.jpg" width="300" height="200"><br>
-<img src="photos/photo_5776046485983575577_y.jpg" width="300" height="200"><br>
+<img src="photos/Screenshot (43).png" width="600" height="400"><br>
+<img src="photos/photo_5776046485983575575_y.jpg" width="600" height="400"><br>
+<img src="photos/photo_5776046485983575576_y.jpg" width="600" height="400"><br>
+<img src="photos/photo_5776046485983575577_y.jpg" width="600" height="400"><br>
 
 
 ## **Disclaimer:**

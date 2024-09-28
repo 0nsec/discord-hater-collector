@@ -53,7 +53,7 @@ def build_exe():
             '--onefile',
             '--windowed',
             '--noconsole',
-            'HaterCollecter-0.2.py',  # Hardcoded script
+            'HaterCollecter.py',  # Hardcoded script
             '--distpath', 'dist'  # Hardcoded output directory
         ])
         

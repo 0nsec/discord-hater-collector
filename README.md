@@ -86,6 +86,7 @@ Make it more persistant. +
 <img src="photos/Screenshot (37).png"><br>
 <img src="photos/Screenshot (39).png"><br>
 <img src="photos/Screenshot (40).png"><br>
+<img src="photos/Screenshot (42).png"><br>
 <img src="photos/Screenshot (41).png"><br>
 
 

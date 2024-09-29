@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/58359afe-647e-4e82-87e8-4bfc69f936f7" width="800">
+</p>
 
 <p align="center">
   <b>🔥 Hater Collector 🔥</b>
